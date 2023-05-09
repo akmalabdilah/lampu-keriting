@@ -65,7 +65,7 @@ Gambar 01. Konfigurasi PHP
 Pada bagian extention, hilangkan tanda ; (titik koma) pada ekstensi yang akan 
 diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server.
 
-![Gambar 5](screenshoot/5.JPG)!
+![Gambar 5](screenshoot/5.JPG)
 ![Gambar 6](screenshoot/6.JPG)
 
 Gambar 02. Ekstensi PHP
