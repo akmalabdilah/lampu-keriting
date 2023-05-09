@@ -58,15 +58,15 @@ Berikut beberapa ekstensi yang perlu diaktifkan:
 Untuk mengaktifkan ekstentsi tersebut, melalu **XAMPP Control Panel**, pada bagian 
 Apache **klik Config -> PHP.ini**
 Untuk menjalankan MySQL Server dari menu XAMPP Contol.
-![Gambar 4](screenshoot/4.JPG)
+![Gambar 4](screenshoot/4.jpg)
 
 Gambar 01. Konfigurasi PHP
 
 Pada bagian extention, hilangkan tanda ; (titik koma) pada ekstensi yang akan 
 diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server.
 
-![Gambar 5](screenshoot/5.JPG)
-![Gambar 6](screenshoot/6.JPG)
+![Gambar 5](screenshoot/5.jpg)
+![Gambar 6](screenshoot/6.jpg)
 
 Gambar 02. Ekstensi PHP
 
@@ -80,13 +80,13 @@ manual.<br>
 • Ubah nama direktory **framework-4.x.xx** menjadi **ci4**.<br>
 
 
-![Gambar 7](screenshoot/7.JPG)
+![Gambar 7](screenshoot/7.jpg)
 
 Gambar 03. Direktory framework-4 ci4
 
 • Buka browser dengan alamat **http://localhost/lab11_php_ci/ci4/public/**
 
-![Gambar 8](screenshoot/8.JPG)
+![Gambar 8](screenshoot/8.jpg)
 
 Gambar 04. Tampilan Codeigniter4
 
@@ -95,7 +95,7 @@ Gambar 04. Tampilan Codeigniter4
 Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk 
 mengakses CLI buka terminal/command prompt. 
 
-![Gambar 9](screenshoot/9.JPG)
+![Gambar 9](screenshoot/9.jpg)
 
 Gambar 05. Tampilan Command Prompt
 
@@ -106,7 +106,7 @@ Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah:
 php spark
 ~~~
 
-![Gambar 10](screenshoot/10.JPG)
+![Gambar 10](screenshoot/10.jpg)
 
 Gambar 06. Perintah CLI
 
@@ -124,26 +124,26 @@ mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program.
 **Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan ditampilkan
 pesan kesalahan seperti berikut.**
 
-![Gambar 11](screenshoot/11.JPG)
+![Gambar 11](screenshoot/11.jpg)
 
 Gambar 07. CI Error
 
 Cara mengaktifkannya dengan mengubah nama file **env** menjadi **.env** kemudian buka filenya dan ubah nilai **CI_ENVIRONMENT** menjadi **development.**
 
-![Gambar 12](screenshoot/12.JPG)
+![Gambar 12](screenshoot/12.jpg)
 
 Gambar 08. Konfigurasi CI
 
 Contoh error yang terjadi. Untuk mencoba error tersebut, ubah kode pada file
 **app/Controller/Home.php** hilangkan titik koma pada akhir kode.
 
-![Gambar 13](screenshoot/13.JPG)
+![Gambar 13](screenshoot/13.jpg)
 
 Gambar 09. Kode Home
 
 Buka browser : http://localhost:8080
 
-![Gambar 14](screenshoot/14.JPG)
+![Gambar 14](screenshoot/14.jpg)
 
 Gambar 10. Error
 
