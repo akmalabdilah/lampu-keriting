@@ -6,7 +6,7 @@
 | **Nama**        | M. AKMAL AL ABDILAH          |
 | **NIM**         | 312110034                    |
 | **Kelas**       | TI.21.A.1                    |
-| **Mata Kuliah** | Pemrograman Mobile 2         |
+| **Mata Kuliah** | Pemrograman Web 2         |
 
 
 
