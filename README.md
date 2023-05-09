@@ -36,11 +36,11 @@ Catatan yang di atas merupakan gambar harsil dari
 ##### 2. Mahasiswa mampu memahami konsep dasar MVC.
 ###### 3. Mahasiswa membuat program sederhana menggunakan Framework Codeigniter4
 
-<p>
-Jadi ini  hanya eksekusi kode aja jika kalian ingin penjelasan bisa cari di flatfom lain kurang lebih saya ucapkan!
-</p>
+
 
 <p>
-Bagaimana cara untuk membuatnya mari saya jelaskan langkah - langkanhya
+ Dan bagaimana cara untuk membuatnya mari saya jelaskan langkah - langkanhya
 </p>
+
+
 <img src="https://user-images.githubusercontent.com/91085882/222731693-24383140-7623-4e7a-a528-6621380b7be8.gif">
