@@ -66,7 +66,7 @@ Pada bagian extention, hilangkan tanda ; (titik koma) pada ekstensi yang akan
 diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server.
 
 ![Gambar 5](screenshoot/5.jpg)
-![Gambar 6](screenshoot/6.jpg)
+![Gambar 5-1](screenshoot/5-1.jpg)
 
 Gambar 02. Ekstensi PHP
 
@@ -80,13 +80,14 @@ manual.<br>
 • Ubah nama direktory **framework-4.x.xx** menjadi **ci4**.<br>
 
 
-![Gambar 7](screenshoot/7.jpg)
+![Gambar 6](screenshoot/6.jpg)
+![Gambar 6-1](screenshoot/6-1.jpg)
 
 Gambar 03. Direktory framework-4 ci4
 
 • Buka browser dengan alamat **http://localhost/lab11_php_ci/ci4/public/**
 
-![Gambar 8](screenshoot/8.jpg)
+![Gambar 7](screenshoot/7.jpg)
 
 Gambar 04. Tampilan Codeigniter4
 
@@ -95,7 +96,7 @@ Gambar 04. Tampilan Codeigniter4
 Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk 
 mengakses CLI buka terminal/command prompt. 
 
-![Gambar 9](screenshoot/9.jpg)
+![Gambar 8](screenshoot/8.jpg)
 
 Gambar 05. Tampilan Command Prompt
 
@@ -106,7 +107,7 @@ Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah:
 php spark
 ~~~
 
-![Gambar 10](screenshoot/10.jpg)
+![Gambar 9](screenshoot/9.jpg)
 
 Gambar 06. Perintah CLI
 
@@ -124,26 +125,26 @@ mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program.
 **Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan ditampilkan
 pesan kesalahan seperti berikut.**
 
-![Gambar 11](screenshoot/11.jpg)
+![Gambar 10](screenshoot/10.jpg)
 
 Gambar 07. CI Error
 
 Cara mengaktifkannya dengan mengubah nama file **env** menjadi **.env** kemudian buka filenya dan ubah nilai **CI_ENVIRONMENT** menjadi **development.**
 
-![Gambar 12](screenshoot/12.jpg)
+![Gambar 12](screenshoot/11.jpg)
 
 Gambar 08. Konfigurasi CI
 
 Contoh error yang terjadi. Untuk mencoba error tersebut, ubah kode pada file
 **app/Controller/Home.php** hilangkan titik koma pada akhir kode.
 
-![Gambar 13](screenshoot/13.jpg)
+![Gambar 12](screenshoot/12.jpg)
 
 Gambar 09. Kode Home
 
 Buka browser : http://localhost:8080
 
-![Gambar 14](screenshoot/14.jpg)
+![Gambar 13](screenshoot/13.jpg)
 
 Gambar 10. Error
 
@@ -155,7 +156,7 @@ $routes->get('/about', 'Page::about');
 $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 ~~~
-![Gambar 15](screenshoot/15.jpg)
+![Gambar 14](screenshoot/14.jpg)
 
 Gambar 11. Gambar add app config Routes.php
 
@@ -164,14 +165,14 @@ perintah berikut.
 
 `php spark routes`
 
-![Gambar 16](screenshoot/16.jpg)
+![Gambar 15](screenshoot/15.jpg)
 
 Gambar 12. Tampilan CLI
 
 Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url
 http://localhost:8080/about
 
-![Gambar 17](screenshoot/17.jpg)
+![Gambar 16](screenshoot/16.jpg)
 
 Gambar 13. Tampilan error page.
 
@@ -202,14 +203,14 @@ echo "Ini halaman FAQ";
 }
 }
 ~~~
-![Gambar 18](screenshoot/18.jpg)
+![Gambar 17](screenshoot/17.jpg)
 
 Gambar 14. Code Controller Page.php
 
 Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaitu halaman
 sudah dapat diakses.
 
-![Gambar 19](screenshoot/19.jpg)
+![Gambar 18](screenshoot/18.jpg)
 
 Gambar 14. Tampilan Halaman About
 
@@ -231,7 +232,7 @@ echo "ini halaman Term of Services";
 Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan
 alamat: http://localhost:8080/page/tos
 
-![Gambar 20](screenshoot/20.jpg)
+![Gambar 19](screenshoot/19.jpg)
 
 Gambar 15. Tampilan autoroute
 
@@ -254,7 +255,7 @@ kodenya seperti berikut.
 </body>
 </html>
 ~~~
-![Gambar 21](screenshoot/21.jpg)
+![Gambar 20](screenshoot/20.jpg)
 
 Gambar 16. Code app view about.php
 
@@ -269,13 +270,13 @@ halaman ini.'
 ]);
 }
 ~~~
-![Gambar 22](screenshoot/22.jpg)
+![Gambar 21](screenshoot/21.jpg)
 
 Gambar 17. Code Controller Page
 
 Kemudian lakukan refresh pada halaman tersebut.
 
-![Gambar 23](screenshoot/23.jpg)
+![Gambar 22](screenshoot/22.jpg)
 
 Gambar 18.Halaman about
 
@@ -287,7 +288,7 @@ css dan javascript terletak pada direktori **public**.<br>
 Buat file css pada direktori public dengan nama **style.css** (copy file dari praktikum
 **lab4_layout**). Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
 
-![Gambar 24](screenshoot/24.jpg)
+![Gambar 23](screenshoot/23.jpg)
 
 Gambar 19.Direktori asset
 
@@ -316,7 +317,7 @@ File **app/view/template/header.php**<br>
 <section id="wrapper">
 <section id="main">
 ~~~
-![Gambar 25](screenshoot/25.jpg)
+![Gambar 24](screenshoot/24.jpg)
 
 Gambar 20.Code header.php
 
@@ -346,7 +347,7 @@ Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
 </body>
 </html>
 ~~~
-![Gambar 26](screenshoot/26.jpg)
+![Gambar 25](screenshoot/25.jpg)
 
 Gambar 21.Code footer.php
 
@@ -358,13 +359,13 @@ Kemudian ubah file **app/view/about.php** seperti berikut.
 <p><?= $content; ?></p>
 <?= $this->include('template/footer'); ?>
 ~~~
-![Gambar 27](screenshoot/27.jpg)
+![Gambar 26](screenshoot/26.jpg)
 
 Gambar 22.Code about.php
 
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
-![Gambar 28](screenshoot/28.jpg)
+![Gambar 27](screenshoot/27.jpg)
 
 Gambar 22.Tampilan web about
 
@@ -383,7 +384,7 @@ sama.
 Di atas sudah kita buat Route jadi kita tinggal.
 Tambahkan kode **Route artikel** di dalam **Routes.php**
 
-![Gambar 29](screenshoot/29.jpg)
+![Gambar 28](screenshoot/28.jpg)
 
 Gambar 23.add_Routes_artikel
 
@@ -392,7 +393,7 @@ perintah berikut.
 
 `php spark routes`
 
-![Gambar 30](screenshoot/30.jpg)
+![Gambar 29](screenshoot/29.jpg)
 
 Gambar 24.add_Routes_artikel_CLI
 
