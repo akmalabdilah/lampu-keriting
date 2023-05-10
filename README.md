@@ -42,6 +42,11 @@ Catatan yang di atas merupakan gambar harsil dari run dan prosesnya penjelasanya
 1. Persiapkan text editor misalnya VSCode.
 2. Buat folder baru dengan nama **lab11_php_ci** pada docroot webserver **(htdocs)**
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
+ 
+
+<p>
+Catatan Bacaan agak membungungkan gambar dulu baru penjelasan jadi perlu di ingat ini sebagai himbawan agar paham dalam mengikuti tutorialnya
+</p> 
 
 **Langkah-langkah Praktikum**<br>
 **Persiapan**<br>
