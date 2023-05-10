@@ -397,7 +397,7 @@ perintah berikut.
 
 Gambar 24.add_Routes_artikel_CLI
 
-Selanjutnya kita buat Buat dan tambahkan file
+Selanjutnya kita buat dan tambahkan file
 baru dengan nama **artikel.php dan contact.php** di **htdocs\lab11_php_ci\ci4\app\Views**
 
 
